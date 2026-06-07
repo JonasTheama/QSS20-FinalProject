@@ -1,0 +1,10 @@
+Metric,Value
+Training observations,"172,888"
+Test observations,"43,223"
+Default rate (full set),46.3%
+Features (one-hot expanded),33
+Accuracy,0.822
+Precision (Defaulted),0.765
+Recall (Defaulted),0.888
+F1 (Defaulted),0.822
+ROC-AUC,0.906

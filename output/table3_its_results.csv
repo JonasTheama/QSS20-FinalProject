@@ -1,0 +1,4 @@
+Model,Pre-period mean (monthly),Post-period mean (monthly),Level shift (β2),Slope change (β3)
+Overall,984,40,-1003.80*** (p=0.000),5.84*** (p=0.001)
+Treatment (BVI + Panama),516,47,-493.72*** (p=0.000),4.19*** (p=0.000)
+Control (Seychelles + Cayman + Samoa),138,nan,0.00 (p=nan),0.00 (p=nan)
