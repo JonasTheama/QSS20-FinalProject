@@ -21,8 +21,7 @@ This project uses the [ICIJ Offshore Leaks Database](https://offshoreleaks.icij.
 QSS20-FinalProject/
 ├── README.md
 ├── code/
-│   ├── 00_load.ipynb          ← data loading and path setup
-│   ├── 01_explore.ipynb       ← missingness, distributions, leak source filter
+│   ├── 01_project.ipynb       ← basic exploration of dataset
 │   ├── 02_analyze.ipynb       ← flow heatmap and arc map
 │   ├── 03_logistic_regression.ipynb   ← predicting entity default status
 │   ├── 04_interrupted_time_series.ipynb  ← Panama Papers causal analysis
@@ -52,8 +51,7 @@ QSS20-FinalProject/
 
 | Notebook | Inputs | What it does | Outputs |
 |----------|--------|--------------|---------|
-| `00_load.ipynb` | Raw CSVs from ICIJ | Sets `BASE_PATH`, loads all six CSVs, prints shapes and column names | None (run first) |
-| `01_explore.ipynb` | Raw CSVs | Missingness analysis, relationship type distributions, leak source filter, starter bar charts | `viz1_officer_countries.png`, `viz2_entity_jurisdictions.png` |
+| `01_project.ipynb` | Raw CSVs | Missingness analysis, relationship type distributions, leak source filter, starter bar charts | `viz1_officer_countries.png`, `viz2_entity_jurisdictions.png` |
 | `02_analyze.ipynb` | Filtered entities + officers + relationships | Officer→entity flow matrix, heatmap, arc map | `viz3_flow_heatmap_clean.png`, `viz4_flow_map.html` |
 | `03_logistic_regression.ipynb` | Filtered entities + officers + relationships | Feature engineering, logistic regression, ROC curve, coefficient plot, summary tables | `viz5_roc_curve.png`, `viz6_coef_plot.png`, `table1_*.csv`, `table2_*.csv` |
 | `04_interrupted_time_series.ipynb` | Filtered entities | Monthly incorporation counts, ITS regression, substitution effect robustness check | `viz7_its_overall.png`, `viz8_substitution_effect.png`, `table3_*.csv` |
